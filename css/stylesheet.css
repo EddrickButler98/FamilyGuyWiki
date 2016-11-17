@@ -1480,8 +1480,8 @@ abbr[data-original-title] {
 }
 blockquote {
   padding: 11.5px 23px;
-  margin: 0 0 23px;
-  font-size: 16.25px;
+  margin: 0 0 0px;
+  font-size: 14px;
   border-left: 5px solid #eeeeee;
 }
 blockquote p:last-child,
@@ -7552,4 +7552,10 @@ slide-viewer {
 
 .slide:first-child {
   display: block;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
 }
